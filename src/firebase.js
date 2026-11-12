@@ -12,6 +12,8 @@ const firebaseConfig = {
   appId: env.FIREBASE_APP_ID,
 };
 
+console.log(env.FIREBASE_API_KEY, env.FIREBASE_PROJECT_ID, env.FIREBASE_APP_ID);
+
 const hasRequiredConfig = [
   firebaseConfig.apiKey,
   firebaseConfig.projectId,
